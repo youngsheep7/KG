@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#IP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#IP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#网络"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#TCP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#TCP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#网络"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#UDP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#UDP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#网络"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#位置 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#位置"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#侦查 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#侦查">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#攻击后果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#内网主机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#内网主机"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#原子错误 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#原子错误">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#输入验证错误漏洞利用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#序列化错误 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#序列化错误">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#输入验证错误漏洞利用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#异常条件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#异常条件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#输入验证错误漏洞利用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#拒绝服务 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#拒绝服务">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#攻击后果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#攻击 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#攻击"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#攻击后果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#攻击后果"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#方法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#方法"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#用户权限 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#用户权限">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#攻击后果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#畸形输入 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#畸形输入">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#逻辑漏洞利用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#竞争条件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#竞争条件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#输入验证错误漏洞利用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#系统组件"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#系统组件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#系统组件"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#缓存溢出 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#缓存溢出">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#逻辑漏洞利用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#网络 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#网络">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#系统组件"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#输入 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#输入"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#输入验证错误漏洞利用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#输入验证错误漏洞利用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#方法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#边界情况 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#边界情况">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#逻辑漏洞利用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#进程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#进程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#系统组件"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#远程访问 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#远程访问">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#攻击后果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#逻辑漏洞利用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#逻辑漏洞利用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-6#方法"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

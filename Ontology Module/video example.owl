@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-3="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#studies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#studies">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Module"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#teaches -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#teaches">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Lecturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Module"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#first_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#first_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#last_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#last_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#staff_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#staff_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Lecturer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#studentid -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#studentid">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#CSModule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#CSModule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Module"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Lecturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Lecturer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#MathModule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#MathModule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Module"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Module -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Module"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#CS101 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#CS101">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#CSModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#CS103 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#CS103">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#CSModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Lecture1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Lecture1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Lecturer"/>
+        <teaches rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#CS101"/>
+        <teaches rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#M201"/>
+        <first_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Larisa</first_name>
+        <last_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soldatova</last_name>
+        <staff_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">417868</staff_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Lecturer2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Lecturer2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Lecturer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#M201 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#M201">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#MathModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Student1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Student1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Student"/>
+        <studies rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#CS101"/>
+        <first_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">josef</first_name>
+        <last_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baker</last_name>
+        <studentid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">266814</studentid>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Student2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Student2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Student"/>
+        <studies rdf:resource="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#M201"/>
+        <first_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xu</first_name>
+        <last_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yang</last_name>
+        <studentid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">021513127</studentid>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#CSModule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Lecturer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#MathModule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xuyang/ontologies/2019/2/untitled-ontology-3#Student"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
