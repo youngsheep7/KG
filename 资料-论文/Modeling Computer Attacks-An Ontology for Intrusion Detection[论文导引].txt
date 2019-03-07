@@ -1,0 +1,5 @@
+内容包含：
+1. 设计基于了入侵检测的本体。并对其中的类和关系进行了详细的说明。
+
+推荐：
+1. 第四章有提到两个和电脑攻击和入侵相关的类库，也许可以参考：CERT/CC Advisories and the “Internet Catalog of Assailable Technologies” (ICAT) maintained by NIST
